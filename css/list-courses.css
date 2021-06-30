@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* corregir todo este pedo con un buen curso de flexbox */
+.container {
+    display: grid;
+    background: #fff;
+    border-radius: 16px;
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3,minmax(100px,1fr));
+    grid-template-rows: repeat(1,auto);
+    grid-template-areas:"title-card title-card title-card"
+                        ;
+
+    
+}
+.container .title-card{
+    grid-area: title-card;
+}
