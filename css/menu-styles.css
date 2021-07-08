@@ -131,27 +131,6 @@ p {
 }
 /*  global classes */
 
-/* section */
-.section {
-  padding: 5rem 0;
-}
-
-.section-center {
-  width: 90vw;
-  margin: 0 auto;
-  max-width: 1170px;
-}
-@media screen and (min-width: 992px) {
-  .section-center {
-    width: 95vw;
-  }
-}
-main {
-  min-height: 100vh;
-  display: grid;
-  place-items: center;
-}
-
 /*
 =============== 
 Navbar
@@ -246,15 +225,16 @@ nav {
     color: var(--clr-primary-7);
   }
 }
-/* 
-============
-list iteams
-============
-*/
+
 .title h3{
   text-align: center;
-padding-top: 40px;
+  padding-top: 40px;
 }
+
+/*
+======
+list class items
+*/
 .container{
   width: 90%;
   max-width: 750px;
